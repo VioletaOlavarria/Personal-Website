@@ -1,0 +1,319 @@
+<div class="container">
+  <div class="overlay">
+    <img src="https://aaron.cc/content/images/2020/04/Windows-95-Boot-Screen.gif" />
+
+  </div>
+  <div class="overlay2"> <img src="https://aaron.cc/content/images/2020/04/Windows-95-Boot-Screen.gif" />
+  </div>
+
+  <body>
+
+    <div id="desktop">
+      <div id="win"><label for="windows-Introduction-input" class="desktop-item">
+
+          <div class="icon1"><button id="btn1" onclick="Function1()"><img src="https://i.imgur.com/13zvJ8K.png" z-index:"2px;">
+              <p2 class="computer__text desktop-icon__text">
+                Introduction
+              </p2>
+            </button>
+            <div class="window-body1">
+
+              <div id="WindowPopUp">
+                <div class="Win-Title1">Introduction</div>
+
+                <div class="window-control-buttons">
+                  <button class="window-button-minimize">&#xEF2D;</button>
+                  <button class="window-button-maximize">&#xEF2F;</button>
+                  <button class="window-button-close">&#xEF2C;</button>
+                </div>
+                <article class="window-content" style="overflow-y:scroll;">
+                  <span>
+                    <p> My name is Violeta Olavarria, I am a 23 year old self taught Digital Illustrator and Aspiring 2D Animator! I create a wide range of works, including personal art, character design and background concepts!</p>
+
+                    <p>I was born in Reading, Pennsylvania but grew up in Camden since 2007. When I was around 6 years old, I decided to pick up a pencil and started to draw, ever since then I've been enjoying my art journey for about 17 years, and roughly 11 years in digital art. I was the kid who would prefer to draw on my spare time since not many people would approach me. Growing up in a household for most of her life, she decided to put all that time in her craft. </p>
+
+                    <p>I went to Camden County Technical Schools Pennsauken Campus High School in 2015 and Graduated with skills on Video Production. Even went to Rutgers University, Camden Campus for about a year or two before leaving due to the rise from the Pandemic. The times I spent inside, I used it to experiment and learn on the fundamentals of drawing and using it to create small story concepts.
+                    </p>
+
+                    <p>I am the type to not only create art for its emotion and meaning, I usually do them in a fast pace. A little fun fact about me, I once thought that speedpaints (which are drawing process videos sped up) I thought they were normal speed. So, for nearly 5 years I've been drawing a bit faster, essentially giving myself a buff! </p>
+
+                  </span>
+                </article>
+
+              </div>
+            </div>
+          </div>
+
+        </label>
+
+        <label for="windows-DigitalArt-input" class="desktop-item">
+          <div class="icon2"><button id="btn2" onclick="Function2()"><img src="https://i.imgur.com/EI2VNnZ.pngheight:514px; width:791px;" />
+              <p2 class="computer__text desktop-icon__text">
+                Digital Art
+              </p2>
+            </button>
+
+            <div class="window-body2">
+
+              <div id="WinPopUp2" overflow="auto">
+                <div class="Win-Title2">Digital Art</div>
+                <div class="window-control-buttons">
+                  <button class="window-button-minimize">&#xEF2D;</button>
+                  <button class="window-button-maximize">&#xEF2F;</button>
+                  <button class="window-button-close">&#xEF2C;</button>
+                </div>
+                <article class="window-content" overflow-y:"scroll;"><span>
+                    <p>As stated, I am a self taught Digital Artist, I've had some classes in art at Rutgers University for about a year or two before I had to leave in 2021 due to the effects of the 2020 Pandemic.
+
+                    <p> Creating art also means creating a sense of style, I have a habit of creating fanart similar to the style of a video game or show series. This gives me an adaptation to replicate an art style for a series/game in the industries! </p>
+                    <a href="">
+                      <img src="https://i.imgur.com/KL8RZGh.png" id="digitalimage1" style="height:314px; width:500px;" /></a>
+
+                    <p> The examples I have provided are some works of personal favorite shows like Sonic X, and the video game Splatoon! Creating things not only to a personal liking but also observing and learning the techniques made from these works! </p>
+
+                    <img src="https://i.imgur.com/lnOdfJm.jpg" style="height:514px; width:400px;" />
+                    <img src="https://i.imgur.com/WdVvDff.jpg" style="height:514px; width:400px;" />
+                    <img src="https://i.imgur.com/VHZNb1B.png" style="height:514px; width:300px;" />
+
+                    <p>This gives me a skill in working on replicating certain art styles for projects, studying the dynamic poses, scene and setting! This applies to digital illustrations as well.</p>
+
+                  </span>
+                </article>
+
+              </div>
+            </div>
+          </div>
+
+        </label>
+
+        <label for="windows-Animation-input" class="desktop-item">
+          <div class="icon3"><button id="btn3" onclick="Function3()"><img src="https://i.imgur.com/Jk6Nwpb.png" />
+              <p2 class="computer__text desktop-icon__text">
+                Animation
+              </p2>
+            </button>
+            <div class="window-body3">
+              <div id="WinPopUp3">
+                <div class="win-title3">Animation <div class="window-control-buttons">
+                    <button class="window-button-minimize">&#xEF2D;</button>
+                    <button class="window-button-maximize">&#xEF2F;</button>
+                    <button class="window-button-close">&#xEF2C;</button>
+
+                  </div>
+                </div>
+
+                <article class="window-content" style="overflow-y:scroll;"><span>
+                    <p> I also dive into 2D frame by frame animation! Creating works from programs such as Adobe Photoshop, Clip Studio Paint, and OpenToonz Animation! The Specific type of animation I create revolves around 2D frame by frame animation. Which is drawing individual frames by hand in a digital program. Versus Traditional Animation, which is drawing each frame by hand through the means of traditional pencil paper, paint, pen, ink, anything within the traditional field. Below are two of my works I picked from my roster, one is an animated gif of a character I created in a walking jump loop, the second one is a full fledge animatic I created from a parody scene of an animated series. </p>
+
+                    <img src="https://i.imgur.com/j91QqP6.gif" style="height:505px; width:600px;" />
+
+                    <video></video>
+
+                    <p>Animatics, while rough drafted, messy, and extra, it’s honestly the best part in animating, it gives the freedom to be messy in the lines while also making the story more lifelike in the rough sketches! My inspiration for the style comes from frame by frame 2D animation to mix media, comprised of 2D AND 3D Animation. Houseki No Kuni, or Land of the Lustrous, is a perfect example of 2D and 3D animation going hand in hand. For the action sequence being 3D based, whereas 2D lies for the still shots, mixing it in an alter like reality. <img src="https://i.pinimg.com/originals/1a/ef/fc/1aeffcf5a43a56a31e3ce846c420a93f.gif" style="height:300px; width:400px;" /></p>
+
+                  </span>
+                </article>
+
+              </div>
+            </div>
+          </div>
+
+        </label>
+
+        <label for="windows-Aspiration-input" class="desktop-item">
+          <div class="icon4"><button id="btn4" onclick="Function4()"><img src="https://i.imgur.com/2QqTW3L.png" />
+              <p2 class="computer__text desktop-icon__text">
+                Aspiration
+              </p2>
+            </button>
+            <div class="window-body4">
+              <div id="WinPopUp4" style="overflow-y:auto;">
+                <div class="Win-Title4">Aspiration <div class="window-control-buttons">
+                    <button class="window-button-minimize">&#xEF2D;</button>
+                    <button class="window-button-maximize">&#xEF2F;</button>
+                    <button class="window-button-close">&#xEF2C;</button>
+                  </div>
+                </div>
+                <article class="window-content" overflow-y:"scroll;"><span>
+                    <p>Creating things not only to a personal liking but also observing and learning the techniques made from these works!It’s a personal hobby that has been a staple in my life, a staple of who I am. Where my voice lacks, my art can pick up, actions in the work speak louder than the words I can communicate. I want to give those who are like minded like me, who can't communicate with their words, let them know that they are seen. That they are valid in how they feel. With creating art, sure its for fun but it also can be a tool to let others know "Hey, I see you."</p>
+
+                    <p> Some people can say art to them revolves around a lot of things, it depends on the person that creates the craft whether for fun, make a statement, send a message, or create a story. Art also helps people find themselves in their work, especially if genuinely makes them happy. I am someone who tries to find herself in the work she creates, especially in learning about the world around me as I grow. I hope to reach beyond myself to others with each drawing I make.</p>
+
+                    <p>With Creating, of course we consider </p>
+                  </span>
+                </article>
+
+              </div>
+            </div>
+          </div>
+
+        </label>
+
+        <label for="windows-Contacts-input" class="desktop-item">
+          <div class="icon5"><button id="btn5" onclick="Function5()"><img src="https://i.imgur.com/qGdKqjH.png" />
+              <p2 class="computer__text desktop-icon__text">
+                Contact
+              </p2>
+            </button>
+            <div class="window-body5">
+              <div id="WinPopUp5">
+                <div class="Win-Title5">Contact <div class="window-control-buttons">
+                    <button class="window-button-minimize">&#xEF2D;</button>
+                    <button class="window-button-maximize">&#xEF2F;</button>
+                    <button class="window-button-close">&#xEF2C;</button>
+                  </div>
+                </div>
+                <article class="window-content" overflow-y:"scroll;"><span>
+                  </span>
+                </article>
+
+              </div>
+            </div>
+          </div>
+
+        </label>
+
+        <div class="window-body6">
+          <div id="WinPopUp6" style="overflow-y:auto;">
+            <div class="Win-Title6">Resources! <div class="window-control-buttons">
+                <button class="window-button-minimize">&#xEF2D;</button>
+                <button class="window-button-maximize">&#xEF2F;</button>
+                <button class="window-button-close">&#xEF2C;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <label for="windows-Introduction-input" class="desktop-item">
+
+          <div class="icon6"><button id="btn6" onclick="Function12()"><img src="https://i.imgur.com/WQ2yGi5.png">
+              <p2 class="computer__text desktop-icon__text">
+                Paint
+              </p2>
+            </button></div>
+          <div class="window-body7">
+            <div id="WinPopUp7">
+              <div class="Win-Title7">Paint!
+
+                <div class="window-control-buttons">
+                  <button class="window-button-minimize">&#xEF2D;</button>
+                  <button class="window-button-maximize">&#xEF2F;</button>
+                  <button class="window-button-close">&#xEF2C;</button>
+                </div>
+              </div>
+              <canvas id="mspaint"></canvas>
+              <nav class="controller">
+                <input type="color" value="#00ff00" placeholder="color" class="colorMap" />
+                <input type="button" value="undo" class="backOff" />
+                <input type="button" value="clear" class="clearMap" />
+              </nav>
+
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+<div id="window-ghost"></div>
+<section class="window">
+  <!-- Borders for cursors -->
+  <div class="window-border border-diagonal border-tl" draggable="true"></div>
+  <div class="window-border border-vertical border-top" draggable="true"></div>
+  <div class="window-border border-diagonal border-tr" draggable="true"></div>
+  <div class="window-border border-horizontal border-left" draggable="true"></div>
+  <div class="window-border border-horizontal border-right" draggable="true"></div>
+  <div class="window-border border-diagonal border-bl" draggable="true"></div>
+  <div class="window-border border-vertical border-bottom" draggable="true"></div>
+  <div class="window-border border-diagonal border-br" draggable="true"></div>
+  <!-- Borders for cursors -->
+
+  <div class="window-control-buttons">
+    <button class="window-button-minimize">&#xEF2D;</button>
+    <button class="window-button-maximize">&#xEF2F;</button>
+    <button class="window-button-close">&#xEF2C;</button>
+  </div>
+  <header class="window-header" draggable="true">
+
+    <h1 class="window-title">Welcome.Paint</h1>
+  </header>
+  <nav class="navbar" hidden>
+    <div class="navbar-aggregator">
+      <button class="navbar-button-back">&#xF0D5;</button>
+      <button class="navbar-button-forward">&#xF0D6;</button>
+      <button class="navbar-button-history">&#xEDDC;</button>
+    </div>
+    <menu class="navbar-breadcrumbs">
+    </menu>
+    <input type="search" class="navbar-searchbox">
+  </nav>
+  <menu type="toolbar" class="menubar">
+    <li>
+      <button type="menu" menu="file-menu">File</button>
+      <menu type="context" id="file-menu">
+        <menuitem>New...</menuitem>
+        <menuitem>Save...</menuitem>
+        <hr>
+        <menuitem>
+        <button type="menu" menu="recent-menu">Recent</button>
+        <menu type="context" id="recent-menu">
+          <menuitem>Drawing</menuitem>
+          <menuitem>Drawing_1</menuitem>
+          <menuitem>Drawing_2</menuitem>
+        </menu>
+        </menuitem>
+      </menu>
+    </li>
+    <li>
+      <button type="menu" menu="edit-menu">Edit</button>
+      <menu type="context" id="edit-menu">
+        <menuitem>Cut...</menuitem>
+        <menuitem>Copy...</menuitem>
+        <menuitem>Paste...</menuitem>
+      </menu>
+    </li>
+  </menu>
+  <menu class="toolbar-area" hidden>
+    <slot name="toolbar"></slot>
+  </menu>
+  <article class="window-content">
+    <span>Hope you enjoy ya stay!
+      <img src="https://i.imgur.com/JBFWe8o.gif" style="width:1000px;height:1200px;"></span>
+  </article>
+  <footer class="statusbar" hidden>
+    <!--<slot name="statusbar"></slot>-->
+    <span>Status text</span>
+    <span>Aditional Text</span>
+    <div class="zoom-control"><button>&#xE71F;</button><input type="range"><button>&#xE8A3;</button></div>
+  </footer>
+</section>
+</div>
+</label>
+</div>
+</div>
+</div>
+
+<div id="taskbar">
+  <div id="start" class="startRest">Start</div>
+  <div id="startMenu">
+    <div id="left">
+      <div class="b">
+        Windows
+        <span class="num95">95</span>
+      </div>
+    </div>
+
+    <header>
+      <nav>
+
+        <div class="menuItem expander">Introduction<button id="button1" onclick="Function6()"></button></div>
+        <div class="menuItem expander">Digital Art<button id="button2" onclick="Function7()"></button></div>
+        <div class="menuItem expander">Animation<button id="button3" onclick="Function8()"></button></div>
+        <div class="menuItem">Aspirations<button id="button4" onclick="Function9()"></button></div>
+        <div class="menuItem">Contact<button id="button5" onclick="Function10()"></button></div>
+        <div class="menuItem expander">Resources<button id="button6" onclick="Function11()"></button></div>
+        <div class="menuItem" id="shutdown">Sh<span style="text-decoration:underline;">u</span>t Down<button id="button7"></button></div>
+  </div>
+  <div id="notifications">
+    <div id="clock"></div>
+  </div>
+</div>
+</div>
+</body>
