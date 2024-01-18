@@ -1,0 +1,363 @@
+//EXTERNAL LINKS USED FOR JAVASCRIPT//
+https://code.jquery.com/jquery-2.2.4.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js
+https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js
+////
+
+
+
+//SPLASHSCREEN//
+var splashScreen = document.querySelector(".overlay");
+splashScreen.addEventListener("click", () => {
+  splashScreen.style.opacity = 0;
+  setTimeout(() => {
+    splashScreen.classList.add("hidden");
+  }, 610);
+});
+
+////Windows UI///
+$(document).ready(function () {
+  startTime();
+  $("#startMenu").hide();
+  $("#start").click(function () {
+    $("#startMenu").toggle();
+    $(this).toggleClass("startClick");
+  });
+
+  $("#desktop").click(function () {
+    $("#startMenu").hide();
+    $("#start").removeClass("startClick").addClass("startRest");
+  });
+
+  function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    // add a zero in front of numbers<10
+    m = checkTime(m);
+    s = checkTime(s);
+    var hd = h;
+    $("#clock").html(
+      (hd = 0 ? "12" : hd > 12 ? hd - 12 : hd) +
+        ":" +
+        m +
+        " " +
+        (h < 12 ? "AM" : "PM")
+    );
+    t = setTimeout(function () {
+      startTime();
+    }, 500);
+  }
+
+  function checkTime(i) {
+    if (i < 10) {
+      i = "0" + i;
+    }
+    return i;
+  }
+});
+
+//////////////////////////////////////////////////////vvButton Clicks////
+
+function Function1() {
+  var x = document.getElementById("WindowPopUp");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function1() {
+  var x = document.getElementById("WindowPopUp");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function2() {
+  var x = document.getElementById("WinPopUp2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function3() {
+  var x = document.getElementById("WinPopUp3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function4() {
+  var x = document.getElementById("WinPopUp4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function5() {
+  var x = document.getElementById("WinPopUp5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function6() {
+  var x = document.getElementById("WindowPopUp");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function7() {
+  var x = document.getElementById("WinPopUp2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function8() {
+  var x = document.getElementById("WinPopUp3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function9() {
+  var x = document.getElementById("WinPopUp4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function10() {
+  var x = document.getElementById("WinPopUp5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function11() {
+  var x = document.getElementById("WinPopUp6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function Function12() {
+  var x = document.getElementById("WinPopUp7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//Moving Windows//
+$(".window-body1").draggable();
+$(".window-body2").draggable();
+$(".window-body3").draggable();
+$(".window-body4").draggable();
+$(".window-body5").draggable();
+$(".window-body6").draggable();
+$(".window-body8").draggable();
+$(".window").draggable();
+
+//movable icons//
+$(".icon1").draggable();
+$(".icon2").draggable();
+$(".icon3").draggable();
+$(".icon4").draggable();
+$(".icon5").draggable();
+$(".icon6").draggable();
+
+//clickable icons//
+const button = document.getElementById("button7");
+const buttonPressed = (e) => {
+  e.target.classList.toggle("overlay");
+};
+button.addEventListener("click", buttonPressed);
+
+//MSPAINT TEMPLATE//
+
+var oCan = document.getElementById("mspaint");
+var ctx = oCan.getContext("2d");
+var oController = document.querySelector(".controller");
+var oColorMap = oController.querySelector(".colorMap");
+var oBackOff = oController.querySelector(".backOff");
+var oClearMap = oController.querySelector(".clearMap");
+var isMobile = "ontouchstart" in window;
+var W = Math.min(window.innerWidth, 800);
+// set devicePixelRatio,to prevent the occurrence of burrs
+const DRP = window.devicePixelRatio || 1;
+
+// canvas lineWidth
+const MAXWIDTH = 30;
+const MINWIDTH = 3;
+const MAXVELOCITY = 2;
+const MINVELOCITY = 0.01;
+const LINESCALE = 0.78;
+
+// stroke array
+var aStroke = [];
+
+// change device
+// When the browser analog phone view, set isMobile
+window.addEventListener(
+  "resize",
+  function () {
+    isMobile = /android|webos|ip(hone|ad|od)|opera (mini|mobi|tablet)|iemobile|windows.+(phone|touch)|mobile|fennec|kindle (Fire)|Silk|maemo|blackberry|playbook|bb10\; (touch|kbd)|Symbian(OS)|Ubuntu Touch/i.test(
+      window.navigator.userAgent
+    );
+    W = Math.min(window.innerWidth, 800);
+    setCanvas();
+    aStroke = [];
+  },
+  false
+);
+
+// set canvas
+var setCanvas = () => {
+  // it sames Math.floor
+  var w = (W * 0.8) | 0;
+  oCan.width = w * DRP;
+  oCan.height = w * DRP;
+  oCan.style.width = `${w}px`;
+  oCan.style.height = `${w}px`;
+  ctx.strokeStyle = oCan.strokeStyle = oColorMap.value;
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+};
+setCanvas();
+
+var _backOff = () => {
+  aStroke.pop();
+  ctx.clearRect(0, 0, oCan.width, oCan.height);
+  for (var i = 0; i < aStroke.length; i++) {
+    for (var j = 1; j < aStroke[i].length; j++) {
+      ctx.beginPath();
+      ctx.lineWidth = aStroke[i][j].w;
+      ctx.strokeStyle = aStroke[i][j].c;
+      ctx.moveTo(aStroke[i][j - 1].x, aStroke[i][j - 1].y);
+      ctx.lineTo(aStroke[i][j].x, aStroke[i][j].y);
+      ctx.stroke();
+    }
+  }
+};
+var _clearMap = () => {
+  ctx.clearRect(0, 0, oCan.width, oCan.height);
+  aStroke = [];
+};
+var _changeStyle = () => {
+  oCan.strokeStyle = oColorMap.value;
+};
+var getSpace = (x1, y1, x2, y2) =>
+  Math.round(Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)));
+var getLineWidth = (s, t) => {
+  let v = s / t;
+  let w;
+  if (v <= MINVELOCITY) {
+    w = MAXWIDTH;
+  } else if (v >= MAXVELOCITY) {
+    w = MINWIDTH;
+  } else {
+    w = Math.round(
+      ((MAXVELOCITY - v) / (MAXVELOCITY - MINVELOCITY)) * (MAXWIDTH - MINWIDTH)
+    );
+  }
+  // Burrs caused faster too fast
+  return oCan.lastLineWidth !== -1
+    ? Math.round(oCan.lastLineWidth * LINESCALE + w * (1 - LINESCALE))
+    : w;
+};
+// add event
+oCan.addEventListener("mousedown", _start, false);
+oCan.addEventListener("mousemove", _move, false);
+oCan.addEventListener("mouseup", _end, false);
+oCan.addEventListener("mouseout", _end, false);
+oCan.addEventListener("touchstart", _start, false);
+oCan.addEventListener("touchmove", _move, false);
+oCan.addEventListener("touchend", _end, false);
+
+// Controller
+FastClick.attach(oController);
+oColorMap.addEventListener("change", _changeStyle, false);
+oBackOff.addEventListener("click", _backOff, false);
+oClearMap.addEventListener("click", _clearMap, false);
+
+function _start(ev) {
+  ev.preventDefault();
+  // PC or Mobile
+  let touch = isMobile ? ev.targetTouches[0] : ev;
+
+  // use attribute not use variable
+  this.lastX = (touch.pageX - this.offsetLeft) * DRP;
+  this.lastY = (touch.pageY - this.offsetTop) * DRP;
+  this.lastTimestamp = Date.now();
+  this.lastLineWidth = -1;
+  this.isDown = true;
+
+  aStroke.push([{ x: this.lastX, y: this.lastY }]);
+}
+function _move(ev) {
+  ev.preventDefault();
+  if (this.isDown) {
+    let touch = isMobile ? ev.targetTouches[0] : ev;
+    let curX = (touch.pageX - this.offsetLeft) * DRP;
+    let curY = (touch.pageY - this.offsetTop) * DRP;
+    let curTimestamp = Date.now();
+    let timestamp = curTimestamp - this.lastTimestamp;
+    let space = getSpace(this.lastX, this.lastY, curX, curY);
+    let curW = getLineWidth(space, timestamp);
+    let curColor = this.strokeStyle || "#000";
+
+    ctx.lineWidth = curW * DRP;
+    ctx.strokeStyle = curColor;
+    ctx.beginPath();
+    ctx.moveTo(this.lastX, this.lastY);
+    ctx.lineTo(curX, curY);
+    ctx.stroke();
+
+    this.lastX = curX;
+    this.lastY = curY;
+    this.lastTimestamp = curTimestamp;
+    this.lastLineWidth = curW;
+
+    aStroke[aStroke.length - 1].push({
+      x: curX,
+      y: curY,
+      w: curW * DRP,
+      c: curColor
+    });
+  }
+}
+function _end(ev) {
+  // changedTouches
+  ev.preventDefault();
+  this.isDown = false;
+}
